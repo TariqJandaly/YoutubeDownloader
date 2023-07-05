@@ -50,13 +50,13 @@
             url: '',
 
             download() { 
-                window.location.href = `https://youtube-downloader-api.tariqjandaly.repl.co/download?URL=${this.url}`
+                window.location.href = `${window.location.origin}/download?URL=${this.url}`
             },
 
             downloadEvent(event) {
                 if(event.key != 'Enter') return 
                 
-                window.location.href = `https://youtube-downloader-api.tariqjandaly.repl.co/download?URL=${this.url}`
+                window.location.href = `${window.location.origin}/download?URL=${this.url}`
             }
         }">
         <h1 class="heading">Download a Youtube video!</h1>
