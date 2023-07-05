@@ -1,9 +1,10 @@
 # YoutubeDownloader
 Download videos from youtube with out any ads!
 
+## How did I use to make it?
 
-The website could work without running the server and thats becuse it uses an open API I created and if it stop working you will need to change the url to your own server
-
+- [ExpressJS](https://npmjs.com/package/express) ~ to make the server
+- [ytdl-core](https://npmjs.com/package/ytdl-core) ~ to download the videos from youtube
 
 ## To set up the server simple run
 ```bash

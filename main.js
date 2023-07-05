@@ -1,13 +1,14 @@
 const express = require('express');
 const cors = require('cors');
 const ytdl = require('ytdl-core');
+const fs = require('fs');
 const app = express();
 app.use(cors());
 app.listen(4000, () => {
     console.log('Server Works !!! At port 4000');
 });
 app.get('/', (req, res) => {
-    res.send("Use ''/download?url=URL' to download")
+    res.send(fs.readFileSync("Public/index.html", "utf-8"))
 })
 app.get('/download', (req, res) => {
     var URL = req.query.URL;
