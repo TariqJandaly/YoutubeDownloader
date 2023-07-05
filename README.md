@@ -1,7 +1,7 @@
 # YoutubeDownloader
 Download videos from youtube with out any ads!
 
-## How did I use to make it?
+## What did I use to make it?
 
 - [ExpressJS](https://npmjs.com/package/express) ~ to make the server
 - [ytdl-core](https://npmjs.com/package/ytdl-core) ~ to download the videos from youtube
